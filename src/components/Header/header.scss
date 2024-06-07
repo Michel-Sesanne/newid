@@ -1,0 +1,84 @@
+header {
+  font-family: "roboto", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 25px;
+
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+
+  .text {
+    h1 {
+      color: #f9b233;
+    }
+    color: black;
+    font-weight: bold;
+
+    .fa-facebook {
+      color: grey;
+    }
+  }
+
+  .fa-solid {
+    color: #f9b233;
+  }
+
+  .link {
+    min-height: 40vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    .phone,
+    .mail {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .phone-link {
+      text-decoration: none;
+      color: white;
+      text-shadow:
+        1px 0 #240f00,
+        -1px 0 #240f00,
+        0 1px #240f00,
+        0 -1px #240f00;
+      transition:
+        all 0.2s ease,
+        visibility 0s;
+      background: #2daae1;
+      border-radius: 60px;
+      padding: 10px;
+    }
+
+    .mail-link {
+      text-decoration: none;
+      color: #240f00;
+      font-size: 15px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  header {
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 15px;
+
+    .fa-facebook {
+      font-size: 21px;
+      margin-bottom: 1rem;
+    }
+
+    .phone {
+      font-size: 30px;
+    }
+  }
+}
