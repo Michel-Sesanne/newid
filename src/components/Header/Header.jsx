@@ -11,7 +11,7 @@ export default function Header() {
           Electricien et Serrurier <br />
           Avignon et ses alentours
         </h1>
-        <p>Installation - Réparation</p>
+        <p>Intervention - Réparation</p>
         <p>Dépannage 7j/24h</p>
         <a
           href="https://www.facebook.com/I.D.Electrique84?locale=fr_FR"

@@ -1,0 +1,56 @@
+footer {
+    background-color: #2daae1;
+    min-height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+
+    .illustration {
+        width: 253px;
+        height: 169px;
+        object-fit: cover;
+        object-position: 50% 50%;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        p {            
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .white {
+            color: white;
+        }
+        
+        .haut {
+            display: flex;
+            flex-direction: column;
+            .siret {
+                font-weight: 600;
+            }
+        }
+
+        .bas {
+            .mail-link {
+                text-decoration: none;
+            }
+
+            a {
+                color: white;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    footer {
+        flex-direction: column;
+        
+        .text {
+            gap: 20px;
+        }
+    }
+}
