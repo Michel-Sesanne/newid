@@ -1,3 +1,5 @@
+@import '../../styles/variables';
+
 header {
   font-family: "roboto", sans-serif;
   min-height: 40vh;
@@ -7,7 +9,6 @@ header {
   font-size: 20px;
   margin: 10px;
   box-sizing: border-box;
-  border-bottom: #2daae1 solid 1px;
   padding-bottom: 10px;
 
   .App-logo {
@@ -17,7 +18,7 @@ header {
 
   .text {
     h1 {
-      color: #f9b233;
+      color: $second-color;;
     }
     color: black;
     font-weight: bold;
@@ -28,7 +29,7 @@ header {
   }
 
   .fa-solid {
-    color: #f9b233;
+    color: $second-color;
   }
 
   .link {
@@ -57,7 +58,7 @@ header {
       transition:
         all 0.2s ease,
         visibility 0s;
-      background: #2daae1;
+      background: $main-color;
       border-radius: 60px;
       padding: 10px;
     }

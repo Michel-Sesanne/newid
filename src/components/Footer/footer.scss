@@ -1,5 +1,7 @@
+@import '../../styles/variables';
+
 footer {
-    background-color: #2daae1;
+    background-color: $main-color;
     min-height: 20vh;
     display: flex;
     justify-content: space-around;

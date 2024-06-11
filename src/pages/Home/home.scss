@@ -1,3 +1,30 @@
+@import '../../styles/variables';
+
 .home {
+    width: 95%;
     min-height: 40vh;
+    color: $second-color;
+    margin:  10px auto;
+
+    h2 {
+       font-size: 60px;
+       font-family: "roboto", sans-serif; 
+    }
+
+    .map {
+        height: 400px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .home {
+        h2 {
+            font-size: 30px;
+        }
+        
+        .map {
+            height: 700px;
+        }
+    }
 }
