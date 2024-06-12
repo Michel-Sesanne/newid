@@ -3,11 +3,11 @@
 .home {
     width: 95%;
     min-height: 40vh;
-    color: $second-color;
+    color: $third-color;
     margin:  10px auto;
 
     h2 {
-       font-size: 60px;
+       font-size: 40px;
        font-family: "roboto", sans-serif; 
     }
 
@@ -20,7 +20,7 @@
 @media (max-width: 767px) {
     .home {
         h2 {
-            font-size: 30px;
+            font-size: 20px;
         }
         
         .map {

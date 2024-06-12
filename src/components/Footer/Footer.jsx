@@ -27,6 +27,9 @@ export default function Footer() {
             <p>06.34.82.65.27</p>
           </div>
         </div>
+        <div className="milieu">
+          <p>Assurance décennale APRIL</p>
+        </div>
         <div className="bas">
           <div className="white">
             <a className="mail-link" href="mailto:i.d.electrique84@gmail.com">

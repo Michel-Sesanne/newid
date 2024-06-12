@@ -76,8 +76,8 @@ const Navigation = () => {
       </Hamburger>
       <NavLinks isOpen={isOpen}>
         <StyledNavLink to="/">Accueil</StyledNavLink>
-        <StyledNavLink to="/tarifsElectricite">Tarifs électricité</StyledNavLink>
-        <StyledNavLink to="/tarifsSerrurerie">Tarifs serrurerie</StyledNavLink>
+        <StyledNavLink to="/tarifsElectricien">Tarifs électricien</StyledNavLink>
+        <StyledNavLink to="/tarifsSerrurier">Tarifs serrurier</StyledNavLink>
       </NavLinks>
     </Nav>
   );

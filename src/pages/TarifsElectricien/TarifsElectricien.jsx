@@ -1,0 +1,62 @@
+import "./tarifsElectricien.scss";
+
+export default function TarifsElectricien() {
+  return (
+    <div className="tarifs-e">
+      <h2>GRILLE TARIFAIRE I.D ELECTRICITE (TTC)</h2>
+      <p className="note">Majoration après 18h, week-end et férié de 60%</p>
+      <p>
+        Pour toutes nos autres prestations, les tarifs se font sur devis (devis
+        gratuit)
+      </p>
+      <ul>
+        <li className="tarif-item">
+          <span className="tarif-description">Déplacement :</span>
+          <span className="tarif-price">50 € à 100 €</span>
+        </li>
+        <li className="tarif-item">
+          <span className="tarif-description">Recherche de panne :</span>
+          <span className="tarif-price">160 € forfait</span>
+        </li>
+        <li className="tarif-item">
+          <span className="tarif-description">
+            Pose interrupteur différentiel :
+          </span>
+          <span className="tarif-price">270 € à 350 €</span>
+        </li>
+        <li className="tarif-item">
+          <span className="tarif-description">
+            Pose disjoncteur divisionnaire :
+          </span>
+          <span className="tarif-price">100 € à 290 €</span>
+        </li>
+        <li className="tarif-item">
+          <span className="tarif-description">Mesure résistance terre :</span>
+          <span className="tarif-price">45 €</span>
+        </li>
+        <li className="tarif-item">
+          <span className="tarif-description">Pose d’un radiateur :</span>
+          <span className="tarif-price">149 €</span>
+        </li>
+        <li className="tarif-item">
+          <span className="tarif-description">Réparation prise électrique :</span>
+          <span className="tarif-price">115 € à 175 €</span>
+        </li>
+        <li className="tarif-item">
+          <span className="tarif-description">
+            Installation tableau électrique :
+          </span>
+          <span className="tarif-price">859 € à 1599 €</span>
+        </li>
+        <li className="tarif-item">
+          <span className="tarif-description">Pose de luminaire intérieur :</span>
+          <span className="tarif-price">149 € à 359 €</span>
+        </li>
+        <li className="tarif-item">
+          <span className="tarif-description">Main-d’œuvre :</span>
+          <span className="tarif-price">50 € à 100 €</span>
+        </li>
+      </ul>
+    </div>
+  );
+}

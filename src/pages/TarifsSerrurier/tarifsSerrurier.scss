@@ -1,0 +1,37 @@
+@import "../../styles/variables";
+
+.tarifs-s {
+  width: 95%;
+  min-height: 40vh;
+  line-height: 2rem;
+  font-family: "roboto", sans-serif;
+
+  h2 {
+    color: $third-color;
+    font-size: 40px;
+  }
+
+  .note {
+    font-style: italic;
+    color: $second-color;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    margin: 10px 0;
+  }
+  .tarif-item {
+    display: flex;
+    justify-content: space-between;
+  }
+  .tarif-description {
+    flex: 1;
+  }
+  .tarif-price {
+    font-weight: bold;
+    margin-left: 20px;
+  }
+}
