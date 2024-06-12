@@ -1,10 +1,10 @@
-import logo from "./logo.png";
+import logo from "./logo.webp";
 import "./header.scss";
 
 export default function Header() {
   return (
-    <header>
-      <img src={logo} className="App-logo" alt="logo" />
+    <header id="header">
+      <img src={logo} className="App-logo" alt="logo" rel="preload"/>
 
       <div className="text">
         <div>

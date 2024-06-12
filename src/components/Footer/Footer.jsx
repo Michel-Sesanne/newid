@@ -1,5 +1,6 @@
 import "./footer.scss";
 import { Link } from "react-router-dom";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import imageElectricite from "./image-electricite.jpg";
 import imageSerrurerie from "./image-serrurerie.jpg";
 
@@ -7,7 +8,7 @@ export default function Footer() {
   return (
     <footer>
       <div className="image-electricite">
-        <img
+        <LazyLoadImage
           className="illustration"
           src={imageElectricite}
           alt="illustration électricité"
@@ -47,7 +48,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="image-serrurerie">
-        <img
+        <LazyLoadImage
           className="illustration"
           src={imageSerrurerie}
           alt="illustration serrurerie"

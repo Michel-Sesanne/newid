@@ -3,14 +3,10 @@ import styled from 'styled-components';
 import { NavLink as RouterNavLink } from 'react-router-dom';
 import './navigation.scss';
 
-const Nav = styled.nav`
-  background-color: #2daae1;
-  padding: 10px;
-  text-align: center;
-  position: relative;
-`;
-
-const NavLinks = styled.div`
+// Filtrer la prop `isOpen` pour qu'elle ne soit pas passée aux éléments DOM natifs
+const NavLinks = styled.div.withConfig({
+  shouldForwardProp: (prop) => prop !== 'isOpen',
+})`
   display: ${props => (props.isOpen ? 'block' : 'none')};
   flex-direction: column;
   position: absolute;
@@ -27,6 +23,13 @@ const NavLinks = styled.div`
     width: auto;
     text-align: center;
   }
+`;
+
+const Nav = styled.nav`
+  background-color: #2daae1;
+  padding: 10px;
+  text-align: center;
+  position: relative;
 `;
 
 const StyledNavLink = styled(RouterNavLink)`
@@ -68,6 +71,10 @@ const Navigation = () => {
     setIsOpen(!isOpen);
   };
 
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
+
   return (
     <Nav>
       <Hamburger onClick={toggleMenu}>
@@ -76,13 +83,12 @@ const Navigation = () => {
         <Line />
       </Hamburger>
       <NavLinks isOpen={isOpen}>
-        <StyledNavLink to="/" activeclassname="active">Accueil</StyledNavLink>
-        <StyledNavLink to="/tarifsElectricien" activeclassname="active">Tarifs électricien</StyledNavLink>
-        <StyledNavLink to="/tarifsSerrurier" activeclassname="active">Tarifs serrurier</StyledNavLink>
+        <StyledNavLink to="/" activeclassname="active" onClick={closeMenu}>Accueil</StyledNavLink>
+        <StyledNavLink to="/tarifsElectricien" activeclassname="active" onClick={closeMenu}>Tarifs électricien</StyledNavLink>
+        <StyledNavLink to="/tarifsSerrurier" activeclassname="active" onClick={closeMenu}>Tarifs serrurier</StyledNavLink>
       </NavLinks>
     </Nav>
   );
 };
 
 export default Navigation;
-
