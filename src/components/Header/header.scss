@@ -17,11 +17,22 @@ header {
   }
 
   .text {
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     h1 {
-      color: $second-color;;
+      color: $second-color;
+      font-size: 50px;
+      margin-bottom: 10px;
     }
-    color: black;
-    font-weight: bold;
+
+    p {
+      font-weight: 600;
+      line-height: 1.5rem;
+      margin: 5px auto 10px;
+    }
+    
 
     .fa-facebook {
       color: grey;
@@ -77,6 +88,13 @@ header {
     align-items: center;
     justify-content: flex-start;
     font-size: 15px;
+
+    .text {
+      min-height: 20px;
+      h1 {        
+        font-size: 25px;
+      }
+    }
 
     .fa-facebook {
       font-size: 21px;

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { NavLink as RouterNavLink } from 'react-router-dom';
+import './navigation.scss';
 
 const Nav = styled.nav`
   background-color: #2daae1;
@@ -13,8 +14,8 @@ const NavLinks = styled.div`
   display: ${props => (props.isOpen ? 'block' : 'none')};
   flex-direction: column;
   position: absolute;
-  top: 50px;
-  right: 10px;
+  top: -79px;
+  right: 0;
   background-color: #2daae1;
   width: 200px;
   text-align: left;
@@ -75,9 +76,9 @@ const Navigation = () => {
         <Line />
       </Hamburger>
       <NavLinks isOpen={isOpen}>
-        <StyledNavLink to="/">Accueil</StyledNavLink>
-        <StyledNavLink to="/tarifsElectricien">Tarifs électricien</StyledNavLink>
-        <StyledNavLink to="/tarifsSerrurier">Tarifs serrurier</StyledNavLink>
+        <StyledNavLink to="/" activeclassname="active">Accueil</StyledNavLink>
+        <StyledNavLink to="/tarifsElectricien" activeclassname="active">Tarifs électricien</StyledNavLink>
+        <StyledNavLink to="/tarifsSerrurier" activeclassname="active">Tarifs serrurier</StyledNavLink>
       </NavLinks>
     </Nav>
   );

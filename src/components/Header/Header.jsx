@@ -7,13 +7,16 @@ export default function Header() {
       <img src={logo} className="App-logo" alt="logo" />
 
       <div className="text">
-        <h1>
+        <div>
+          <h1>
           Electricien et Serrurier <br />
           Avignon et ses alentours
         </h1>
         <p>Intervention - Dépannage</p>
         <p>Réparation - Urgences 7j/24h</p>
-        <a
+        </div>
+        <div>
+          <a
           href="https://www.facebook.com/I.D.Electrique84?locale=fr_FR"
           target="_blank"
           rel="noreferrer noopener"
@@ -21,6 +24,7 @@ export default function Header() {
         >
           <i className="fa-brands fa-facebook"></i>
         </a>
+        </div>        
       </div>
 
       <div className="link">
