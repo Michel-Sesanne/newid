@@ -5,16 +5,12 @@ const ScrollToTop = () => {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    // Récupérer la hauteur du header
-    const headerHeight = document.getElementById('header').offsetHeight;
+    const headerHeight = document.getElementById('header')?.offsetHeight || 0; // Récupère la hauteur du header
 
-    // Calculer le décalage en fonction de la route actuelle
-    let yOffset = 0;
-    if (pathname !== '/') {
-      yOffset = headerHeight > 0 ? headerHeight : 0;
-    }
+    // Si la route est '/' ou '*', on scrolle jusqu'en haut de la page
+    // Sinon, on scrolle jusqu'à la hauteur du header
+    const yOffset = ['/', '*'].includes(pathname) ? 0 : headerHeight;
 
-    // Faire défiler la page jusqu'au bas du header
     window.scrollTo({
       top: yOffset,
       behavior: 'smooth' // Défilement fluide
