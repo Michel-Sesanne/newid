@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, Navigate } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import TarifsElectricien from './pages/TarifsElectricien/TarifsElectricien';
 import TarifsSerrurier from './pages/TarifsSerrurier/TarifsSerrurier';
@@ -11,6 +11,7 @@ export default function AppRoutes() {
            <Route path="/tarifsElectricien" element={<TarifsElectricien />} />
            <Route path="/tarifsSerrurier" element={<TarifsSerrurier />} />
            <Route path="/mentionsLegales" element={<MentionsLegales />} />
+           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
     )
 }
