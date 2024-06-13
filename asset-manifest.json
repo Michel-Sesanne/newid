@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/newid/static/css/main.637f4f64.css",
-    "main.js": "/newid/static/js/main.fdb4692a.js",
+    "main.js": "/newid/static/js/main.1d82537a.js",
     "static/js/453.372a8acf.chunk.js": "/newid/static/js/453.372a8acf.chunk.js",
     "static/media/image-electricite.jpg": "/newid/static/media/image-electricite.03806b4085c80c14f9ee.jpg",
     "static/media/image-serrurerie.jpg": "/newid/static/media/image-serrurerie.81906de22bda23a7548f.jpg",
     "static/media/logo.webp": "/newid/static/media/logo.7cd712224d1cbf9970d2.webp",
     "index.html": "/newid/index.html",
     "main.637f4f64.css.map": "/newid/static/css/main.637f4f64.css.map",
-    "main.fdb4692a.js.map": "/newid/static/js/main.fdb4692a.js.map",
+    "main.1d82537a.js.map": "/newid/static/js/main.1d82537a.js.map",
     "453.372a8acf.chunk.js.map": "/newid/static/js/453.372a8acf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.637f4f64.css",
-    "static/js/main.fdb4692a.js"
+    "static/js/main.1d82537a.js"
   ]
 }
