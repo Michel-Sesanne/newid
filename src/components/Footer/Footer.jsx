@@ -43,7 +43,7 @@ export default function Footer() {
             </p>
           </div>
           <div>
-            <p>&copy; 2024 I.D Electricité&Serrurerie. Tous droits réservés.</p>
+            <p>&copy; 2024 I.D Electricité & Serrurerie</p>
           </div>
         </div>
       </div>

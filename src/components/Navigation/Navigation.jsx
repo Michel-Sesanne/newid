@@ -41,6 +41,8 @@ const StyledNavLink = styled(RouterNavLink)`
   &:hover {
     color: black;
     background-color: #f9b233;
+    border-radius: 10px;
+    filter: drop-shadow(0px 3px 5px rgba(0, 0, 0, 1));
   }
 
   @media (min-width: 768px) {
