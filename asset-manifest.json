@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/newid/static/css/main.637f4f64.css",
-    "main.js": "/newid/static/js/main.ea56af63.js",
+    "main.css": "/newid/static/css/main.02d8e168.css",
+    "main.js": "/newid/static/js/main.658d9857.js",
     "static/js/453.372a8acf.chunk.js": "/newid/static/js/453.372a8acf.chunk.js",
     "static/media/logo.png": "/newid/static/media/logo.854648c9b434124a5b8b.png",
     "static/media/image-electricite.jpg": "/newid/static/media/image-electricite.03806b4085c80c14f9ee.jpg",
     "static/media/image-serrurerie.jpg": "/newid/static/media/image-serrurerie.81906de22bda23a7548f.jpg",
     "static/media/logo.webp": "/newid/static/media/logo.7cd712224d1cbf9970d2.webp",
     "index.html": "/newid/index.html",
-    "main.637f4f64.css.map": "/newid/static/css/main.637f4f64.css.map",
-    "main.ea56af63.js.map": "/newid/static/js/main.ea56af63.js.map",
+    "main.02d8e168.css.map": "/newid/static/css/main.02d8e168.css.map",
+    "main.658d9857.js.map": "/newid/static/js/main.658d9857.js.map",
     "453.372a8acf.chunk.js.map": "/newid/static/js/453.372a8acf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.637f4f64.css",
-    "static/js/main.ea56af63.js"
+    "static/css/main.02d8e168.css",
+    "static/js/main.658d9857.js"
   ]
 }
