@@ -22,7 +22,7 @@ export default function TarifsSerrurier() {
         </li>
         <li className="tarif-item">
           <span className="tarif-description">
-            Ouverture de porte classNameique verrouillée sans remplacement de
+            Ouverture de porte classique verrouillée sans remplacement de
             pièce :
           </span>
           <span className="tarif-price">130 €</span>
