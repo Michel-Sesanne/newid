@@ -8,7 +8,7 @@ import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 export default function App() {
   return (
     <HelmetProvider>
-      <Router basename="/newid">
+      <Router>
         <ScrollToTop />
         <Layout>
           <JsonLd />
