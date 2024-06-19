@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.02d8e168.css",
-    "main.js": "/static/js/main.3b259b79.js",
+    "main.css": "/static/css/main.266aa036.css",
+    "main.js": "/static/js/main.bd998e9a.js",
     "static/js/453.372a8acf.chunk.js": "/static/js/453.372a8acf.chunk.js",
     "static/media/logo.png": "/static/media/logo.854648c9b434124a5b8b.png",
     "static/media/image-electricite.jpg": "/static/media/image-electricite.03806b4085c80c14f9ee.jpg",
     "static/media/image-serrurerie.jpg": "/static/media/image-serrurerie.81906de22bda23a7548f.jpg",
     "static/media/logo.webp": "/static/media/logo.7cd712224d1cbf9970d2.webp",
     "index.html": "/index.html",
-    "main.02d8e168.css.map": "/static/css/main.02d8e168.css.map",
-    "main.3b259b79.js.map": "/static/js/main.3b259b79.js.map",
+    "main.266aa036.css.map": "/static/css/main.266aa036.css.map",
+    "main.bd998e9a.js.map": "/static/js/main.bd998e9a.js.map",
     "453.372a8acf.chunk.js.map": "/static/js/453.372a8acf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.02d8e168.css",
-    "static/js/main.3b259b79.js"
+    "static/css/main.266aa036.css",
+    "static/js/main.bd998e9a.js"
   ]
 }
