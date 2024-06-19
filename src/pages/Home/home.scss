@@ -1,26 +1,115 @@
-@import '../../styles/variables';
+@import "../../styles/variables";
 
 .home {
-    width: 95%;
-    min-height: 40vh;
+  width: 95%;
+  min-height: 40vh;
+  margin: 10px auto;
+
+  h2 {
+    font-size: 40px;
+    font-family: "roboto", sans-serif;
     color: $third-color;
-    margin:  10px auto;
+  }
 
-    h2 {
-       font-size: 40px;
-       font-family: "roboto", sans-serif; 
-    }
+  .map {
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
+  }
 
-    .map {
-        height: 400px;
-        width: 100%;
+  .open-hours {
+    position: relative;
+    .fa-clock {
+      position: absolute;
+      left: 20%;
+      top: 50px;
+      font-size: 110px;
+      margin-right: 10%;
+      color: $main-color;
     }
+    ul {
+      list-style-type: none;
+      text-align: left;
+      display: inline-block;
+      width: 30%;
+      padding-left: 0;
+      margin-top: 0;
+      margin-bottom: 0;
+
+      .hours-item {
+        display: flex;
+        justify-content: space-between;
+
+        .hours {
+          white-space: pre;
+        }
+      }
+    }
+    .note {
+      font-style: italic;
+      color: $second-color;
+    }
+  }
+
+  .pay {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+
+    .pay-item {
+        display: flex;
+        flex-direction: column;
+        .fa-solid {
+            color: $second-color;
+            font-size: 3rem;
+        }
+    }
+  }
 }
 
 @media (max-width: 767px) {
-    .home {
-        h2 {
-            font-size: 25px;
+  .home {
+    h2 {
+      font-size: 25px;
+    }
+
+    .open-hours {
+        position: relative;
+        .fa-clock {
+          position: absolute;
+          left: 0;
+          top: 40px;
+          font-size: 60px;
+          margin-right: 10%;
+          color: $main-color;
+        }
+        ul {
+          width: 50%;          
         }
     }
+
+    .pay {
+        margin-left: -35px
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .home {
+       .open-hours {
+        position: relative;
+        .fa-clock {
+          position: absolute;
+          left: 10%;
+          top: 60px;
+          font-size: 60px;
+          margin-right: 10%;
+          color: $main-color;
+        }
+        ul {
+          width: 50%;          
+        }
+    } 
+    }
+    
 }

@@ -88,6 +88,7 @@ header {
     align-items: center;
     justify-content: flex-start;
     font-size: 15px;
+    border-bottom: 2px solid $main-color;
 
     .text {
       min-height: 20px;

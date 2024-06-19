@@ -10,10 +10,10 @@ const NavLinks = styled.div.withConfig({
   display: ${props => (props.isOpen ? 'block' : 'none')};
   flex-direction: column;
   position: absolute;
-  top: -79px;
+  top: 0px;
   right: 0;
   background-color: #2daae1;
-  width: 200px;
+  width: 135px;
   text-align: left;
 
   @media (min-width: 768px) {
@@ -78,12 +78,12 @@ const Navigation = () => {
   };
 
   return (
-    <Nav>
+    <Nav id="nav">
       <Hamburger onClick={toggleMenu}>
         <Line />
         <Line />
         <Line />
-      </Hamburger>
+      </Hamburger>      
       <NavLinks isOpen={isOpen}>
         <StyledNavLink to="/" activeclassname="active" onClick={closeMenu}>Accueil</StyledNavLink>
         <StyledNavLink to="/tarifsElectricien" activeclassname="active" onClick={closeMenu}>Tarifs électricien</StyledNavLink>

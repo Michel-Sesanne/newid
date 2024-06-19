@@ -6,7 +6,9 @@ const ScrollToTop = () => {
 
   useEffect(() => {
     const headerHeight = document.getElementById('header')?.offsetHeight || 0;
-    const yOffset = (pathname === '/' || pathname === '*') ? 0 : headerHeight;
+    const navHeight = document.getElementById('nav')?.offsetHeight || 0;
+    const headerNavHeight = headerHeight + navHeight;
+    const yOffset = (pathname === '/' || pathname === '*') ? 0 : headerNavHeight;
     
     window.scrollTo({
       top: yOffset,
