@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Page Not Found</title>
+  <meta http-equiv="refresh" content="0; URL=/#fallback">
+  <script type="text/javascript">
+    // Redirect to the correct route based on the URL
+    var path = window.location.pathname;
+    var hash = '#' + path.substring(1);
+    window.location.href = '/' + hash;
+  </script>
+</head>
+<body>
+  <h1>Page Not Found</h1>
+  <p>Redirecting...</p>
+</body>
+</html>
+
