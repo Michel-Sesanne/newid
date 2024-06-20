@@ -1,19 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Page Not Found</title>
-  <meta http-equiv="refresh" content="0; URL=/#fallback">
-  <script type="text/javascript">
-    // Redirect to the correct route based on the URL
-    var path = window.location.pathname;
-    var hash = '#' + path.substring(1);
-    window.location.href = '/' + hash;
-  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Non Trouvée</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    h1 {
+      font-size: 3em;
+    }
+    p {
+      font-size: 1.5em;
+    }
+    a {
+      color: #2daae1;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  <h1>Page Not Found</h1>
-  <p>Redirecting...</p>
+  <h1>404 - Page Non Trouvée</h1>
+  <p>Oops! La page que vous cherchez n'existe plus.</p>
+  <p><a href="/">Retour à la page d'accueil</a></p>
 </body>
 </html>
-
