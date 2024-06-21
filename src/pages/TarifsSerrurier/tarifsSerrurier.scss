@@ -1,10 +1,16 @@
 @import "../../styles/variables";
 
 .tarifs-s {
-  width: 95%;
-  min-height: 40vh;
+  background-image: url('./images/serrure-desktop.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px 60px;  
+  min-height: 80vh;
   line-height: 2rem;
   font-family: "roboto", sans-serif;
+  color: white;
+  text-shadow: 1px 1px 2px black;
 
   h2 {
     color: $third-color;
@@ -33,13 +39,22 @@
   .tarif-price {
     font-weight: bold;
     margin-left: 20px;
+    padding-right: 40%;
   }
 }
 
 @media (max-width: 767px) {
   .tarifs-s {
+    background-image: url('./images/serrure-mobile.webp');
+    background-position: 75%;
+    padding: 10px;
+
     h2 {
       font-size: 20px;
-  }
+    }
+
+    .tarif-price {
+      padding: 0;
+    }
   }
 }
