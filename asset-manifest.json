@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.99847466.css",
-    "main.js": "/static/js/main.bd998e9a.js",
+    "main.css": "/static/css/main.9792038f.css",
+    "main.js": "/static/js/main.13d3a883.js",
     "static/js/453.372a8acf.chunk.js": "/static/js/453.372a8acf.chunk.js",
     "static/media/serrure-desktop.webp": "/static/media/serrure-desktop.ffa18123ab9d38b25d87.webp",
+    "static/media/justice-desktop.webp": "/static/media/justice-desktop.b941f0e7f286a889dccd.webp",
     "static/media/elec-desktop.webp": "/static/media/elec-desktop.fa377417a32425d445db.webp",
     "static/media/logo.png": "/static/media/logo.854648c9b434124a5b8b.png",
     "static/media/image-electricite.jpg": "/static/media/image-electricite.03806b4085c80c14f9ee.jpg",
+    "static/media/justice-mobile.webp": "/static/media/justice-mobile.a144f6452c5faaa2a626.webp",
     "static/media/elec-mobile.webp": "/static/media/elec-mobile.9cbab0384db7d15bf206.webp",
     "static/media/image-serrurerie.jpg": "/static/media/image-serrurerie.81906de22bda23a7548f.jpg",
     "static/media/serrure-mobile.webp": "/static/media/serrure-mobile.69b5df436a533308b86b.webp",
     "static/media/logo.webp": "/static/media/logo.7cd712224d1cbf9970d2.webp",
     "index.html": "/index.html",
-    "main.99847466.css.map": "/static/css/main.99847466.css.map",
-    "main.bd998e9a.js.map": "/static/js/main.bd998e9a.js.map",
+    "main.9792038f.css.map": "/static/css/main.9792038f.css.map",
+    "main.13d3a883.js.map": "/static/js/main.13d3a883.js.map",
     "453.372a8acf.chunk.js.map": "/static/js/453.372a8acf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.99847466.css",
-    "static/js/main.bd998e9a.js"
+    "static/css/main.9792038f.css",
+    "static/js/main.13d3a883.js"
   ]
 }
