@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9792038f.css",
-    "main.js": "/static/js/main.13d3a883.js",
+    "main.css": "/static/css/main.9f465047.css",
+    "main.js": "/static/js/main.d6a73f0f.js",
     "static/js/453.372a8acf.chunk.js": "/static/js/453.372a8acf.chunk.js",
     "static/media/serrure-desktop.webp": "/static/media/serrure-desktop.ffa18123ab9d38b25d87.webp",
     "static/media/justice-desktop.webp": "/static/media/justice-desktop.b941f0e7f286a889dccd.webp",
@@ -14,12 +14,12 @@
     "static/media/serrure-mobile.webp": "/static/media/serrure-mobile.69b5df436a533308b86b.webp",
     "static/media/logo.webp": "/static/media/logo.7cd712224d1cbf9970d2.webp",
     "index.html": "/index.html",
-    "main.9792038f.css.map": "/static/css/main.9792038f.css.map",
-    "main.13d3a883.js.map": "/static/js/main.13d3a883.js.map",
+    "main.9f465047.css.map": "/static/css/main.9f465047.css.map",
+    "main.d6a73f0f.js.map": "/static/js/main.d6a73f0f.js.map",
     "453.372a8acf.chunk.js.map": "/static/js/453.372a8acf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9792038f.css",
-    "static/js/main.13d3a883.js"
+    "static/css/main.9f465047.css",
+    "static/js/main.d6a73f0f.js"
   ]
 }
