@@ -61,7 +61,7 @@ export default function Home() {
           </li>
           <li className="hours-item">
             <span className="days">Sam - Dim</span>
-            <span className="hours"> Fermé </span>
+            <span className="hours"> Fermé     </span>
           </li>
         </ul>
         <p className="note">Majoration après 18h, week-end et férié de 60%</p>

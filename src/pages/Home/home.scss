@@ -2,11 +2,14 @@
 
 .home {
   width: 95%;
-  min-height: 40vh;
-  margin: 10px auto;
+  margin: auto;
+  padding: 20px 0;
 
   section {
-    margin-bottom: 5%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 1px 0 20px 0;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.3));
   }
 
   h2 {
@@ -14,6 +17,7 @@
     font-family: "roboto", sans-serif;
     color: $third-color;
     text-shadow: 1px 1px 2px black;
+    text-decoration: underline;
   }
 
   i {
@@ -22,12 +26,14 @@
   
   .map {
     height: 400px;
-    width: 100%;
+    width: 98%;
+    margin: auto;
     border-radius: 10px;
   }
 
   .open-hours {
     position: relative;
+    margin: 20px 0;
     .fa-clock {
       position: absolute;
       left: 20%;
@@ -64,10 +70,12 @@
     display: flex;
     list-style-type: none;
     justify-content: space-around;
+    flex-wrap: wrap;
 
     .pay-item {
         display: flex;
         flex-direction: column;
+        width: 50%;
         .fa-solid {
             color: $second-color;
             font-size: 3rem;
@@ -80,6 +88,10 @@
   .home {
     h2 {
       font-size: 25px;
+    }
+
+    section {
+      margin-bottom: 5%;  
     }
 
     .open-hours {
@@ -98,7 +110,7 @@
     }
 
     .pay {
-        margin-left: -35px
+        margin-left: -40px
     }
   }
 }
