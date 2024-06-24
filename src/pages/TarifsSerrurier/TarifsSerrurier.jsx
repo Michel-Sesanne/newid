@@ -1,8 +1,34 @@
 import "./tarifsSerrurier.scss";
+import { Helmet } from "react-helmet-async";
 
 export default function TarifsSerrurier() {
   return (
     <div className="tarifs-s">
+      <Helmet>
+        <title>Tarifs Serrurier - I.D Electricité & Serrurerie</title>
+        <meta
+          name="description"
+          content="Découvrez nos tarifs pour les services d'électricité."
+        />
+        <meta
+          property="og:title"
+          content="Tarifs Serrurier - I.D Electricité & Serrurerie"
+        />
+        <meta
+          property="og:description"
+          content="Découvrez nos tarifs pour les services de serrurerie."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://www.idelectriciteserrurerie.fr/tarifsSerrurier"
+        />
+        <meta
+          property="og:image"
+          content="https://www.idelectriciteserrurerie.fr/logo512.png"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Helmet>
       <h2>GRILLE TARIFAIRE I.D SERRURERIE (TTC)</h2>
       <p className="note">Majoration après 18h, week-end et férié de 60%</p>
       <p>
@@ -22,8 +48,8 @@ export default function TarifsSerrurier() {
         </li>
         <li className="tarif-item">
           <span className="tarif-description">
-            Ouverture de porte classique verrouillée sans remplacement de
-            pièce :
+            Ouverture de porte classique verrouillée sans remplacement de pièce
+            :
           </span>
           <span className="tarif-price">130 €</span>
         </li>

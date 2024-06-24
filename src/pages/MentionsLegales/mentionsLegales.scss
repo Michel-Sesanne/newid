@@ -1,8 +1,16 @@
 @import "../../styles/variables";
 
 .mentionsLegales {
-  font-size: 1.2rem;
-  margin-bottom: 20px;
+  background-image: url('./images/justice-desktop.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;  
+  font-size: 1.2rem;  
+
+  .mentions-legales-container {
+    background-color: rgb(0, 0, 0, 0.6);
+    padding: 20px 10px;
+  }
 
   h2 {
     color: $third-color;
@@ -26,6 +34,7 @@
     text-align: left;
     margin-bottom: 5px;
     text-transform: uppercase;
+    color: white;
   }
 
   p {
@@ -33,6 +42,8 @@
     margin-top: 0;
     text-align: left;
     line-height: 2rem;
+    color: white;
+
   }
 
   span {
@@ -48,7 +59,15 @@
 @media (max-width: 767px) {
     .mentionsLegales {
         font-size: 1rem;
+        background-position: 41%;
+        background-image: url('./images/justice-mobile.webp');
+
+        .mentions-legales-container {
+          margin-top: 20px;
+          padding-top: 0;
+        }
         h2 {
+          padding-top: 20px;
             font-size: 25px;
         }
         p {

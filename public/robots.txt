@@ -1,6 +1,6 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Disallow: /private/
 
 # Sitemap location
 Sitemap: https://www.idelectriciteserrurerie.fr/sitemap.xml

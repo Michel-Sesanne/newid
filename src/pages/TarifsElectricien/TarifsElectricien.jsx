@@ -1,8 +1,34 @@
 import "./tarifsElectricien.scss";
+import { Helmet } from "react-helmet-async";
 
 export default function TarifsElectricien() {
   return (
     <div className="tarifs-e">
+      <Helmet>
+        <title>Tarifs Electricien - I.D Electricité & Serrurerie</title>
+        <meta
+          name="description"
+          content="Découvrez nos tarifs pour les services d'électricité."
+        />
+        <meta
+          property="og:title"
+          content="Tarifs Electricien - I.D Electricité & Serrurerie"
+        />
+        <meta
+          property="og:description"
+          content="Découvrez nos tarifs pour les services d'électricité."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://www.idelectriciteserrurerie.fr/tarifsElectricien"
+        />
+        <meta
+          property="og:image"
+          content="https://www.idelectriciteserrurerie.fr/logo512.png"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Helmet>
       <h2>GRILLE TARIFAIRE I.D ELECTRICITE (TTC)</h2>
       <p className="note">Majoration après 18h, week-end et férié de 60%</p>
       <p>
@@ -39,7 +65,9 @@ export default function TarifsElectricien() {
           <span className="tarif-price">149 €</span>
         </li>
         <li className="tarif-item">
-          <span className="tarif-description">Réparation prise électrique :</span>
+          <span className="tarif-description">
+            Réparation prise électrique :
+          </span>
           <span className="tarif-price">115 € à 175 €</span>
         </li>
         <li className="tarif-item">
@@ -49,7 +77,9 @@ export default function TarifsElectricien() {
           <span className="tarif-price">859 € à 1599 €</span>
         </li>
         <li className="tarif-item">
-          <span className="tarif-description">Pose de luminaire intérieur :</span>
+          <span className="tarif-description">
+            Pose de luminaire intérieur :
+          </span>
           <span className="tarif-price">149 € à 359 €</span>
         </li>
         <li className="tarif-item">
