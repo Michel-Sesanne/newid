@@ -72,7 +72,7 @@ export default function TarifsElectricien() {
         </li>
         <li className="tarif-item">
           <span className="tarif-description">
-            Installation tableau électrique :
+            Installation tableau électrique standardisé:
           </span>
           <span className="tarif-price">859 € à 1599 €</span>
         </li>

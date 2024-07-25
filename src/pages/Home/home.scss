@@ -98,19 +98,20 @@
         position: relative;
         .fa-clock {
           position: absolute;
-          left: 0;
-          top: 40px;
-          font-size: 60px;
+          left: 2%;
+          top: 50px;
+          font-size: 70px;
           margin-right: 10%;
           color: $main-color;
         }
         ul {
-          width: 50%;          
+          width: 60%;
+          padding-left: 15%;       
         }
     }
 
     .pay {
-        margin-left: -40px
+        margin-left: -60px
     }
   }
 }
@@ -122,15 +123,19 @@
         .fa-clock {
           position: absolute;
           left: 10%;
-          top: 60px;
-          font-size: 60px;
+          top: 70px;
+          font-size: 70px;
           margin-right: 10%;
           color: $main-color;
         }
         ul {
           width: 50%;          
         }
+        
     } 
+    .pay {
+          margin-left: -60px;
+        }
     }
     
 }
