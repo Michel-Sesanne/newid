@@ -46,13 +46,13 @@ export default function TarifsElectricien() {
         </li>
         <li className="tarif-item">
           <span className="tarif-description">
-            Pose interrupteur différentiel :
+            Fourniture et pose interrupteur différentiel :
           </span>
-          <span className="tarif-price">270 € à 350 €</span>
+          <span className="tarif-price">220 € à 350 €</span>
         </li>
         <li className="tarif-item">
           <span className="tarif-description">
-            Pose disjoncteur divisionnaire :
+            Fourniture et pose disjoncteur divisionnaire :
           </span>
           <span className="tarif-price">100 € à 290 €</span>
         </li>
