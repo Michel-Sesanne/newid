@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ca97b28e.css",
-    "main.js": "/static/js/main.d147f9ec.js",
+    "main.js": "/static/js/main.10621d85.js",
     "static/js/453.372a8acf.chunk.js": "/static/js/453.372a8acf.chunk.js",
     "static/media/serrure-desktop.webp": "/static/media/serrure-desktop.ffa18123ab9d38b25d87.webp",
     "static/media/justice-desktop.webp": "/static/media/justice-desktop.b941f0e7f286a889dccd.webp",
@@ -15,11 +15,11 @@
     "static/media/logo.webp": "/static/media/logo.7cd712224d1cbf9970d2.webp",
     "index.html": "/index.html",
     "main.ca97b28e.css.map": "/static/css/main.ca97b28e.css.map",
-    "main.d147f9ec.js.map": "/static/js/main.d147f9ec.js.map",
+    "main.10621d85.js.map": "/static/js/main.10621d85.js.map",
     "453.372a8acf.chunk.js.map": "/static/js/453.372a8acf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca97b28e.css",
-    "static/js/main.d147f9ec.js"
+    "static/js/main.10621d85.js"
   ]
 }
