@@ -30,7 +30,7 @@ export default function TarifsElectricien() {
         <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
       <h2>GRILLE TARIFAIRE I.D ELECTRICITE (TTC)</h2>
-      <p className="note">Majoration après 18h, week-end et férié de 60%</p>
+      <p className="note">Majoration de 60% après 18h, week-end et fériés, urgences</p>
       <p>
         Pour toutes nos autres prestations, les tarifs se font sur devis (devis
         gratuit)
