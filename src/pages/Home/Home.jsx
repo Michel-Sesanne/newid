@@ -74,8 +74,8 @@ export default function Home() {
             <span>Espèces</span>
           </li>
           <li className="pay-item">
-            <i className="fa-solid fa-money-check"></i>
-            <span>Chèque</span>
+            <i className="fa-solid fa-credit-card"></i>
+            <span>Carte bleue</span>
           </li>
           <li className="pay-item">
             <i className="fa-solid fa-money-bill-transfer"></i>
