@@ -30,7 +30,7 @@ export default function TarifsSerrurier() {
         <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
       <h2>GRILLE TARIFAIRE I.D SERRURERIE (TTC)</h2>
-      <p className="note">Majoration de 60% après 18h, week-end et fériés, urgences</p>
+      <p className="note">Majoration de 60% après 18h, week-end & fériés, urgences</p>
       <p>
         Pour toutes nos autres prestations, les tarifs se font sur devis (devis
         gratuit)
@@ -48,14 +48,13 @@ export default function TarifsSerrurier() {
         </li>
         <li className="tarif-item">
           <span className="tarif-description">
-            Ouverture de porte classique verrouillée sans remplacement de pièce
-            :
+            Ouverture de porte classique verrouillée :
           </span>
           <span className="tarif-price">130 €</span>
         </li>
         <li className="tarif-item">
           <span className="tarif-description">
-            Ouverture de porte blindée verrouillée sans remplacement de pièce :
+            Ouverture de porte blindée verrouillée :
           </span>
           <span className="tarif-price">160 €</span>
         </li>
@@ -73,31 +72,31 @@ export default function TarifsSerrurier() {
         </li>
         <li className="tarif-item">
           <span className="tarif-description">
-            Fourniture et pose d'une poignée blindée à partir de :
+            Fourniture & pose d'une poignée blindée à partir de :
           </span>
           <span className="tarif-price">300 €</span>
         </li>
         <li className="tarif-item">
           <span className="tarif-description">
-            Fourniture et pose de cornière anti-pince à partir de :
+            Fourniture & pose de cornière anti-pince à partir de :
           </span>
           <span className="tarif-price">300 €</span>
         </li>
         <li className="tarif-item">
           <span className="tarif-description">
-            Fourniture et pose de Blindage Parisien à partir de :
+            Fourniture & pose de Blindage Parisien à partir de :
           </span>
           <span className="tarif-price">2990 €</span>
         </li>
         <li className="tarif-item">
           <span className="tarif-description">
-            Fourniture et pose de paumelles blindées avec barre de pivotement :
+            Fourniture & pose de paumelles blindées avec barre de pivotement :
           </span>
           <span className="tarif-price">750 € à 900 €</span>
         </li>
         <li className="tarif-item">
           <span className="tarif-description">
-            Fourniture et pose Serrures carénées avec 5 points de fermeture à
+            Fourniture & pose Serrures carénées avec 5 points de fermeture à
             partir de :
           </span>
           <span className="tarif-price">1290 €</span>

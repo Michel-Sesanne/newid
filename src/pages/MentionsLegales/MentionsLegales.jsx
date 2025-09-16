@@ -90,7 +90,7 @@ export default function MentionsLegales() {
             consommation, nous proposons un dispositif de médiation de la
             consommation. L'entité de médiation retenue est : MEDIATION CONSOMMATION DÉVELOPPEMENT/MED CONSO DEV.
             <br /> En cas de litige, vous pouvez déposer votre réclamation sur
-            son site : https://www.medconsodev.eu ou par voie postale en écrivant à MEDIATION CONSOMMATION DÉVELOPPEMENT/MED CONSO DEV
+            son site : https://www.cnpm-mediation-consommation.eu/ ou par voie postale en écrivant à MEDIATION CONSOMMATION DÉVELOPPEMENT/MED CONSO DEV
             Centre d’Affaires Stéphanois SAS IMMEUBLE L’HORIZON – ESPLANADE DE FRANCE 3, RUE J. CONSTANT MILLERET – 42000 SAINT-ÉTIENNE
           </p>
           <h4>Assurance de Responsabilité Décennale</h4>
