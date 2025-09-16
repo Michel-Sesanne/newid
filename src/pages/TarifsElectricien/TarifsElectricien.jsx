@@ -30,7 +30,7 @@ export default function TarifsElectricien() {
         <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
       <h2>GRILLE TARIFAIRE I.D ELECTRICITE (TTC)</h2>
-      <p className="note">Majoration de 60% après 18h, week-end et fériés, urgences</p>
+      <p className="note">Majoration de 60% après 18h, week-end & fériés, urgences</p>
       <p>
         Pour toutes nos autres prestations, les tarifs se font sur devis (devis
         gratuit)
@@ -46,13 +46,13 @@ export default function TarifsElectricien() {
         </li>
         <li className="tarif-item">
           <span className="tarif-description">
-            Fourniture et pose interrupteur différentiel :
+            Fourniture & pose interrupteur différentiel :
           </span>
           <span className="tarif-price">220 € à 350 €</span>
         </li>
         <li className="tarif-item">
           <span className="tarif-description">
-            Fourniture et pose disjoncteur divisionnaire :
+            Fourniture & pose disjoncteur divisionnaire :
           </span>
           <span className="tarif-price">100 € à 290 €</span>
         </li>
