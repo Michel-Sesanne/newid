@@ -33,7 +33,7 @@ export default function TarifsSerrurier() {
       <p className="note">Majoration de 60% après 18h, week-end & fériés, urgences</p>
       <p>
         Pour toutes nos autres prestations, les tarifs se font sur devis (devis
-        gratuit)
+        gratuit hors déplacement déductible de la prestation validée)
       </p>
       <ul>
         <li className="tarif-item">
