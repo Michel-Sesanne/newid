@@ -46,8 +46,8 @@ export default function Header() {
 
         <div className="mail">
           <i className="fa-solid fa-envelope"></i>
-          <a className="mail-link" href="mailto:i.d.electrique84@gmail.com">
-            i.d.electrique84@gmail.com
+          <a className="mail-link" href="mailto:i.d.electricite.serrurerie@gmail.com">
+            i.d.electricite.serrurerie@gmail.com
           </a>
         </div>
       </div>

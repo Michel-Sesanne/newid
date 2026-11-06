@@ -16,7 +16,7 @@ export default function MentionsLegales() {
             <span>N° SIRET :</span> 40290340500031 <br />
             <span>N° TVA intracommunautaire :</span> FR17402903405 <br />
             <span>RCS :</span> Avignon <br />
-            <span>Email :</span> i.d.electrique84@gmail.com <br />
+            <span>Email :</span> i.d.electricite.serrurerie@gmail.com <br />
           </p>
         </section>
         <section>
