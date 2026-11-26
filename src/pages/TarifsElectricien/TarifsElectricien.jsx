@@ -38,10 +38,10 @@ export default function TarifsElectricien() {
       <ul>
         <li className="tarif-item">
           <span className="tarif-description">Déplacement :</span>
-          <span className="tarif-price">50 € à 100 €</span>
+          <span className="tarif-price">55 € à 88 €</span>
         </li>
         <li className="tarif-item">
-          <span className="tarif-description">Recherche de panne :</span>
+          <span className="tarif-description">Recherche de panne/diagnostic :</span>
           <span className="tarif-price">160 € forfait</span>
         </li>
         <li className="tarif-item">
@@ -74,7 +74,7 @@ export default function TarifsElectricien() {
           <span className="tarif-description">
             Installation tableau électrique monophasé standardisé:
           </span>
-          <span className="tarif-price">859 € à 1599 €</span>
+          <span className="tarif-price">959 € à 2199 €</span>
         </li>
         <li className="tarif-item">
           <span className="tarif-description">
@@ -84,7 +84,7 @@ export default function TarifsElectricien() {
         </li>
         <li className="tarif-item">
           <span className="tarif-description">Main-d’œuvre :</span>
-          <span className="tarif-price">50 € à 100 €</span>
+          <span className="tarif-price">65 € à 104 €</span>
         </li>
       </ul>
     </div>

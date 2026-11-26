@@ -38,7 +38,7 @@ export default function TarifsSerrurier() {
       <ul>
         <li className="tarif-item">
           <span className="tarif-description">Déplacement :</span>
-          <span className="tarif-price">50 € à 100 €</span>
+          <span className="tarif-price">55 € à 88 €</span>
         </li>
         <li className="tarif-item">
           <span className="tarif-description">
@@ -50,25 +50,25 @@ export default function TarifsSerrurier() {
           <span className="tarif-description">
             Ouverture de porte classique verrouillée :
           </span>
-          <span className="tarif-price">130 €</span>
+          <span className="tarif-price">135 €</span>
         </li>
         <li className="tarif-item">
           <span className="tarif-description">
             Ouverture de porte blindée verrouillée :
           </span>
-          <span className="tarif-price">160 €</span>
+          <span className="tarif-price">165 €</span>
         </li>
         <li className="tarif-item">
           <span className="tarif-description">
             Ouverture d'une boîte à lettres :
           </span>
-          <span className="tarif-price">75 €</span>
+          <span className="tarif-price">45 €</span>
         </li>
         <li className="tarif-item">
           <span className="tarif-description">
-            Dépose & pose cylindre simple type européen :
+            Remplacement cylindre simple type européen hors fournitures :
           </span>
-          <span className="tarif-price">75 €</span>
+          <span className="tarif-price">65 €</span>
         </li>
         <li className="tarif-item">
           <span className="tarif-description">

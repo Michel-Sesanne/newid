@@ -88,10 +88,13 @@ export default function MentionsLegales() {
           <p>
             Conformément aux articles L.616-1 et R.616-1 du code de la
             consommation, notre société a mis en place un dispositif de
-            médiation de la consommation. L'entité de médiation retenue est : SAS MÉDIATION CONSOMMATION DÉVELOPPEMENT.
+            médiation de la consommation. L'entité de médiation retenue est :
+            <br />SAS MÉDIATION CONSOMMATION DÉVELOPPEMENT.
             <br /> En cas de litige, tout consommateur pourra déposer sa réclamation sur
-            le site : https://www.medconsodev.eu ou par voie postale en écrivant à :
-            MÉDIATION CONSOMMATION DÉVELOPPEMENT – IMMEUBLE L’HORIZON – ESPLANADE DE FRANCE – 3 RUE J. CONSTANT MILLERET – 42000 SAINT-ETIENNE
+            le site :
+            <br />https://www.medconsodev.eu
+            <br />ou par voie postale en écrivant à :
+            <br />MÉDIATION CONSOMMATION DÉVELOPPEMENT – IMMEUBLE L’HORIZON – ESPLANADE DE FRANCE – 3 RUE J. CONSTANT MILLERET – 42000 SAINT-ETIENNE
           </p>
           <h4>Assurance de Responsabilité Décennale</h4>
           <p>
